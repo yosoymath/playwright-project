@@ -22,7 +22,3 @@ test('Login com sucesso! @login', async ({ page }) => {
   await page.screenshot({ path: 'screenshots/screenshot2.png' });
   await page.getByRole('button', { name: 'login' }).click();
 });
-
-test.afterEach(async ({ page }) => {
-  //teste finalizacao1
-});
